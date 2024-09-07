@@ -80,9 +80,12 @@ return [
     |
     */
 
-    'locale' => env('APP_LOCALE', 'es'),
-    'locales' => ['es', 'en', 'de', 'fr', 'br', 'it'],
+    'locale' => env('APP_LOCALE', 'fa'),
+
+    'locales' => ['fa', 'es', 'en', 'de', 'fr', 'br', 'it'],
+
     'locale_system' => [
+        'fa' => 'fa_IR.UTF-8',
         'es' => 'es_ES.UTF-8',
         'en' => 'en_US.UTF-8',
         'de' => 'de_DE.UTF-8',
@@ -102,7 +105,7 @@ return [
     |
     */
 
-    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'es'),
+    'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
     /*
     |--------------------------------------------------------------------------

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" dir="rtl">
     <head>
         @include ('layouts.molecules.head')
     </head>
