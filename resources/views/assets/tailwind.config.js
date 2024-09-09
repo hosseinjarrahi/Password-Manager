@@ -57,7 +57,7 @@ module.exports = {
                 },
             },
             fontFamily: {
-                roboto: ["Roboto"],
+                iransans: ["Iransans"],
             },
             container: {
                 center: true,
