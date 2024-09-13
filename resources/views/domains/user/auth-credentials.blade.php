@@ -3,9 +3,11 @@
 @section('body')
 
     <div class="flex flex-col h-screen justify-center items-center">
-        <div class="w-11/12 md:w-8/12 xl:w-2/5 bg-white bg-grey-lightest px-10 py-10 rounded shadow">
+        <div class="w-11/12 md:w-6/12 xl:w-2/5 bg-white bg-grey-lightest px-10 py-10 rounded shadow"
+            style="border:5px solid #51618d">
             <div class=" p-5 mt-5">
                 <img src="@asset('build/images/meftah.png')" class="m-auto" style="width: 160px; height: auto;">
+                <h3 class="text-center">سامانه مدیریت مفتاح</h3>
             </div>
 
             <form method="post">
