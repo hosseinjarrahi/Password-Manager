@@ -1,5 +1,5 @@
 <?php return [
     'error' => [
-        'not-found' => 'The requested user does not exist',
+        'not-found' => 'کاربر مورد نظر یافت نشد',
     ],
 ];

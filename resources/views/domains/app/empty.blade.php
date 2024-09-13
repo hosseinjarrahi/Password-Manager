@@ -4,8 +4,8 @@
 
 <div class="container p-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-        <h1 class="my-4 text-3xl md:text-5xl font-bold leading-tight text-center md:text-left">{{ __('app-empty.title', ['name' => $AUTH->name]) }}</h1>
-        <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
+        <h1 class="my-4 text-3xl md:text-5xl leading-tight text-center md:text-left">{{ __('app-empty.title', ['name' => $AUTH->name]) }}</h1>
+        <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-right">
             <a href="{{ route('app.create') }}">{!! __('app-empty.text') !!}</a>
         </p>
     </div>

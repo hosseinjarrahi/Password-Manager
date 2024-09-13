@@ -1,4 +1,4 @@
 <?php return [
-    'message' => 'This user no longer has access.',
-    'meta-title' => 'This user has been disabled',
+    'message' => 'این کاربر به این بخش دسترسی ندارد.',
+    'meta-title' => 'کاربر غیر فعال شده است',
 ];

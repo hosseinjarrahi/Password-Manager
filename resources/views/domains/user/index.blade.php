@@ -3,12 +3,12 @@
 @section ('body')
 
 <form method="get">
-    <div class="sm:flex sm:space-x-4">
+    <div class="sm:flex">
         <div class="flex-grow mt-2 sm:mt-0">
             <input type="search" class="form-control form-control-lg" placeholder="{{ __('user-index.filter') }}" data-table-search="#user-list-table" />
         </div>
 
-        <div class="sm:ml-4 mt-2 sm:mt-0 bg-white">
+        <div class="mr-2 mt-2 sm:mt-0 bg-white">
             <a href="{{ route('user.create') }}" class="btn form-control-lg">{{ __('user-index.create') }}</a>
         </div>
     </div>
@@ -19,8 +19,8 @@
         <thead>
             <tr>
                 <th class="w-1">{{ __('user-index.id') }}</th>
-                <th class="text-left">{{ __('user-index.name') }}</th>
-                <th class="text-left">{{ __('user-index.email') }}</th>
+                <th class="text-right">{{ __('user-index.name') }}</th>
+                <th class="text-right">{{ __('user-index.email') }}</th>
                 <th>{{ __('user-index.password_enabled') }}</th>
                 <th>{{ __('user-index.certificate') }}</th>
                 <th>{{ __('user-index.tfa_enabled') }}</th>
@@ -38,8 +38,8 @@
 
             <tr>
                 <td class="w-1"><a href="{{ $link }}" class="block text-center font-semibold whitespace-nowrap">{{ $row->id }}</a></td>
-                <td class="text-left"><a href="{{ $link }}" class="block font-semibold whitespace-nowrap">{{ $row->name }}</a></td>
-                <td class="text-left"><a href="{{ $link }}" class="block font-semibold whitespace-nowrap">{{ $row->email }}</a></td>
+                <td class="text-right"><a href="{{ $link }}" class="block font-semibold whitespace-nowrap">{{ $row->name }}</a></td>
+                <td class="text-right"><a href="{{ $link }}" class="block font-semibold whitespace-nowrap">{{ $row->email }}</a></td>
                 <td data-table-sort-value="{{ (int)$row->password_enabled }}">@status($row->password_enabled)</td>
                 <td data-table-sort-value="{{ (int)$row->certificate }}">@status((bool)$row->certificate)</td>
                 <td data-table-sort-value="{{ (int)$row->tfa_enabled }}">@status($row->tfa_enabled)</td>

@@ -3,12 +3,12 @@
 @section ('body')
 
 <form method="get">
-    <div class="sm:flex sm:space-x-4">
+    <div class="sm:flex">
         <div class="flex-grow mt-2 sm:mt-0">
             <input type="search" class="form-control form-control-lg" placeholder="{{ __('tag-index.filter') }}" data-table-search="#tag-list-table" />
         </div>
 
-        <div class="sm:ml-4 mt-2 sm:mt-0 bg-white">
+        <div class="mr-2 mt-2 sm:mt-0 bg-white overflow-hidden">
             <a href="{{ route('tag.create') }}" class="btn form-control-lg">{{ __('tag-index.create') }}</a>
         </div>
     </div>
@@ -19,7 +19,7 @@
         <thead>
             <tr>
                 <th class="w-1">{{ __('tag-index.id') }}</th>
-                <th class="text-left">{{ __('tag-index.name') }}</th>
+                <th class="text-right">{{ __('tag-index.name') }}</th>
                 <th class="text-center">{{ __('tag-index.apps') }}</th>
                 <th class="text-center">{{ __('tag-index.color') }}</th>
             </tr>

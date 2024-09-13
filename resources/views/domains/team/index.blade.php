@@ -3,12 +3,12 @@
 @section ('body')
 
 <form method="get">
-    <div class="sm:flex sm:space-x-4">
+    <div class="sm:flex">
         <div class="flex-grow mt-2 sm:mt-0">
             <input type="search" class="form-control form-control-lg" placeholder="{{ __('team-index.filter') }}" data-table-search="#team-list-table" />
         </div>
 
-        <div class="sm:ml-4 mt-2 sm:mt-0 bg-white">
+        <div class="mr-2 mt-2 sm:mt-0 bg-white overflow-hidden">
             <a href="{{ route('team.create') }}" class="btn form-control-lg">{{ __('team-index.create') }}</a>
         </div>
     </div>
@@ -19,7 +19,7 @@
         <thead>
             <tr>
                 <th class="w-1">{{ __('team-index.id') }}</th>
-                <th class="text-left">{{ __('team-index.name') }}</th>
+                <th class="text-right">{{ __('team-index.name') }}</th>
                 <th class="text-center">{{ __('team-index.color') }}</th>
                 <th>{{ __('team-index.default') }}</th>
                 <th>{{ __('team-index.users') }}</th>

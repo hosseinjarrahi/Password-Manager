@@ -3,7 +3,7 @@
 @section ('body')
 
 <div class="box flex items-center px-5">
-    <div class="nav nav-tabs flex-col sm:flex-row justify-center lg:justify-start mr-auto" role="tablist">
+    <div class="nav nav-tabs flex-col sm:flex-row justify-center lg:justify-start ml-auto" role="tablist">
         <a href="{{ route('user.profile') }}" class="py-4 sm:mr-8 {{ ($ROUTE === 'user.profile') ? 'active' : '' }}" role="tab">{{ __('user-profile.data') }}</a>
 
         @if ($tfa_enabled)

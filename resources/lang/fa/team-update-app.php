@@ -1,10 +1,10 @@
 <?php return [
-    'filter' => 'Filter Apps...',
-    'icon' => 'Icon',
-    'name' => 'Name',
+    'filter' => 'فیلتر محتوا ...',
+    'icon' => 'آیکون',
+    'name' => 'نام',
     'related' => 'Related',
-    'save' => 'Save',
-    'success' => 'Applications have been successfully related',
-    'teams' => 'Teams',
-    'type' => 'Type',
+    'save' => 'ذخیره',
+    'success' => 'محتوا ها با موفقیت مرتبط شدند',
+    'teams' => 'گروه ها',
+    'type' => 'نوع',
 ];

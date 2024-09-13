@@ -1,13 +1,13 @@
 <?php return [
-    'data' => 'Data',
-    'default' => 'Default',
+    'data' => 'داده',
+    'default' => 'پیشفرض',
     'error' => [
-        'code-exists' => 'There are another Team with the same code',
-        'name-exists' => 'There are another Team with the same name',
+        'code-exists' => 'گروه دیگری با همین کد وجود دارد',
+        'name-exists' => 'گروه دیگری با همین نام وجود دارد',
     ],
-    'meta-title' => 'Create',
-    'name' => 'Name',
-    'save' => 'Save',
-    'success' => 'The Team was successfully created',
-    'users' => 'Users',
+    'meta-title' => 'افزودن',
+    'name' => 'نام',
+    'save' => 'ذخیره',
+    'success' => 'گروه با موفقیت ایجاد شد',
+    'users' => 'کاربران',
 ];

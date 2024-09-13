@@ -46,14 +46,13 @@
     body,
     td,
     th {
-      font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+      font-family: Iransans;
     }
 
     h1 {
       margin-top: 0;
       color: #333333;
       font-size: 22px;
-      font-weight: bold;
       text-align: left;
     }
 
@@ -61,7 +60,6 @@
       margin-top: 0;
       color: #333333;
       font-size: 16px;
-      font-weight: bold;
       text-align: left;
     }
 
@@ -69,7 +67,6 @@
       margin-top: 0;
       color: #333333;
       font-size: 14px;
-      font-weight: bold;
       text-align: left;
     }
 
@@ -272,7 +269,6 @@
     .purchase_total {
       margin: 0;
       text-align: right;
-      font-weight: bold;
       color: #333333;
     }
 
@@ -320,7 +316,6 @@
 
     .email-masthead_name {
       font-size: 16px;
-      font-weight: bold;
       color: #A8AAAF;
       text-decoration: none;
       text-shadow: 0 1px 0 white;
@@ -440,7 +435,7 @@
     }
 
     body {
-      font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+      font-family: Iransans;
     }
 
     body {
@@ -449,18 +444,18 @@
     }
     </style>
   </head>
-  <body style="width: 100% !important; height: 100%; -webkit-text-size-adjust: none; font-family: 'Nunito Sans', Helvetica, Arial, sans-serif; background-color: #F2F4F6; color: #51545E; margin: 0;" bgcolor="#F2F4F6">
+  <body style="width: 100% !important; height: 100%; -webkit-text-size-adjust: none; font-family: Iransans; background-color: #F2F4F6; color: #51545E; margin: 0;" bgcolor="#F2F4F6">
     <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; background-color: #F2F4F6; margin: 0; padding: 0;" bgcolor="#F2F4F6">
       <tr>
-        <td align="center" style="word-break: break-word; font-family: 'Nunito Sans', Helvetica, Arial, sans-serif; font-size: 16px;">
+        <td align="center" style="word-break: break-word; font-family: Iransans; font-size: 16px;">
           <table class="email-content" width="100%" cellpadding="0" cellspacing="0" role="presentation" style="width: 100%; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; margin: 0; padding: 0;">
             <!-- Email Body -->
             <tr>
-              <td class="email-body" width="570" cellpadding="0" cellspacing="0" style="word-break: break-word; margin: 0; padding: 0; font-family: 'Nunito Sans', Helvetica, Arial, sans-serif; font-size: 16px; width: 100%; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0;">
+              <td class="email-body" width="570" cellpadding="0" cellspacing="0" style="word-break: break-word; margin: 0; padding: 0; font-family: Iransans; font-size: 16px; width: 100%; -premailer-width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0;">
                 <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation" style="width: 570px; -premailer-width: 570px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; background-color: #FFFFFF; margin: 0 auto; padding: 0;" bgcolor="#FFFFFF">
                   <!-- Body content -->
                   <tr>
-                    <td class="content-cell" style="word-break: break-word; font-family: 'Nunito Sans', Helvetica, Arial, sans-serif; font-size: 16px; padding: 45px;">
+                    <td class="content-cell" style="word-break: break-word; font-family: Iransans; font-size: 16px; padding: 45px;">
                       @yield ('body')
                     </td>
                   </tr>

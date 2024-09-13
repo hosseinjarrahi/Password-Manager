@@ -103,7 +103,7 @@
                     .top-menu__title {
                         @apply ml-3 flex items-center whitespace-nowrap;
                         .top-menu__sub-icon {
-                            @apply transform transition ease-in duration-200 w-4 h-4 ml-2;
+                            @apply transform transition ease-in duration-200 w-4 h-4 mr-2;
                             @include media-breakpoint-down(xl) {
                                 @apply hidden;
                             }

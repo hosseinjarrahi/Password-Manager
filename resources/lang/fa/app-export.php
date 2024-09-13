@@ -1,5 +1,5 @@
 <?php return [
-    'description' => 'This process generates an encrypted ZIP file with the applications you have created.',
+    'description' => 'این فرآیند یک فایل ZIP رمزگذاری شده با برنامه هایی که ایجاد کرده اید ایجاد می کند.',
     'meta-title' => 'خروجی گرفتن محتوا کاربران',
     'password' => 'رمز فایل فشرده',
     'password_current' => 'رمز کاربری شما',

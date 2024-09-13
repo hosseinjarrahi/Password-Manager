@@ -1,6 +1,4 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
 /* Reset */
 
 *,
@@ -97,9 +95,8 @@ select {
     width: 100%;
     padding: 0;
 
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Iransans;
     font-size: 16px;
-    font-weight: 400;
 
     line-height: 1.25rem;
 
@@ -120,7 +117,6 @@ select {
 
     font-family: inherit;
     font-size: 15px;
-    font-weight: 500;
 
     text-decoration: none;
 
@@ -215,7 +211,6 @@ select {
     padding: 0.8em 1.4em;
     border-radius: 0.15em;
     box-sizing: border-box;
-    font-weight: 600;
     color: #FFFFFF;
     background-color: #a4aec9;
     box-shadow: inset 0 -0.55em 0 -0.35em rgba(0, 0, 0, 0.17);
@@ -249,7 +244,6 @@ select {
 
     font-family: inherit;
     font-size: 18px;
-    font-weight: 600;
 
     color: inherit;
 }

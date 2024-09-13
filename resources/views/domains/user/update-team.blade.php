@@ -20,7 +20,7 @@
             <table id="user-update-team-table" class="table table-report font-medium text-center whitespace-nowrap" data-table-sort>
                 <thead>
                     <tr>
-                        <th class="text-left">{{ __('user-update-team.name') }}</th>
+                        <th class="text-right">{{ __('user-update-team.name') }}</th>
                         <th>{{ __('user-update-team.related') }}</th>
                     </tr>
                 </thead>
@@ -29,7 +29,7 @@
                     @foreach ($teams as $each)
 
                     <tr>
-                        <td class="text-left">
+                        <td class="text-right">
                             <label for="team_ids-{{ $each->id }}" class="text-xs py-1 px-2 rounded-lg" style="@backgroundColor($each->color)">{{ $each->name }}</label>
                         </td>
                         <td data-table-sort-value="{{ (int)$each->selected }}">

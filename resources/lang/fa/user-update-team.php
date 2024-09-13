@@ -1,10 +1,10 @@
 <?php return [
     'error' => [
-        'team_ids-empty' => 'You have not selected any team',
+        'team_ids-empty' => 'شما هنوز گروهی را انتخاب نکرده اید',
     ],
-    'filter' => 'Filter Teams...',
-    'name' => 'Name',
-    'related' => 'Related',
-    'save' => 'Save',
-    'success' => 'The relation with the Teams has been successfully saved',
+    'filter' => 'فیلتر گروه ها ...',
+    'name' => 'نام',
+    'related' => 'مرتبط',
+    'save' => 'ذخیره',
+    'success' => 'ارتباط بین گروه ایجاد شد',
 ];

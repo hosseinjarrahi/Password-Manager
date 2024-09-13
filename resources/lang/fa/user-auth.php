@@ -1,6 +1,6 @@
 <?php return [
     'error' => [
-        'auth' => 'Access credentials are not correct',
-        'empty' => 'Access credentials are not correct',
+        'auth' => 'اطلاعات وارد شده اشتباه است',
+        'empty' => 'اطلاعات وارد شده اشتباه است',
     ],
 ];

@@ -20,8 +20,8 @@
             <table id="team-update-app-table" class="table table-report font-medium text-center whitespace-nowrap" data-table-sort data-table-pagination>
                 <thead>
                     <tr>
-                        <th class="text-left">{{ __('team-update-app.icon') }}</th>
-                        <th class="text-left">{{ __('team-update-app.name') }}</th>
+                        <th class="text-right">{{ __('team-update-app.icon') }}</th>
+                        <th class="text-right">{{ __('team-update-app.name') }}</th>
                         <th>{{ __('team-update-app.type') }}</th>
                         <th>{{ __('team-update-app.teams') }}</th>
                         <th>{{ __('team-update-app.related') }}</th>
@@ -32,7 +32,7 @@
                     @foreach ($apps as $each)
 
                     <tr>
-                        <td class="text-left">
+                        <td class="text-right">
                             <a href="{{ route('app.update', $each->id) }}" class="app-logo"><img src="@image($each->icon, 'resize,0,32')" class="app-logo"></a>
                         </td>
 

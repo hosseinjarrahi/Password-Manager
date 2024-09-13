@@ -20,8 +20,8 @@
             <table id="team-update-user-table" class="table table-report font-medium text-center whitespace-nowrap" data-table-sort>
                 <thead>
                     <tr>
-                        <th class="text-left">{{ __('team-update-user.name') }}</th>
-                        <th class="text-left">{{ __('team-update-user.email') }}</th>
+                        <th class="text-right">{{ __('team-update-user.name') }}</th>
+                        <th class="text-right">{{ __('team-update-user.email') }}</th>
                         <th>{{ __('team-update-user.readonly') }}</th>
                         <th>{{ __('team-update-user.admin') }}</th>
                         <th>{{ __('team-update-user.enabled') }}</th>
@@ -34,8 +34,8 @@
                     @foreach ($users as $each)
 
                     <tr>
-                        <td class="text-left"><span class="block font-semibold whitespace-nowrap">{{ $each->name }}</span></td>
-                        <td class="text-left"><span class="block font-semibold whitespace-nowrap">{{ $each->email }}</span></td>
+                        <td class="text-right"><span class="block font-semibold whitespace-nowrap">{{ $each->name }}</span></td>
+                        <td class="text-right"><span class="block font-semibold whitespace-nowrap">{{ $each->email }}</span></td>
                         <td>@status($each->readonly)</td>
                         <td>@status($each->admin)</td>
                         <td>@status($each->enabled)</td>

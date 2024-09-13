@@ -1,7 +1,7 @@
 <?php return [
     'error' => [
-        'admin-own' => 'It is not possible to disable administrator option on your own user',
-        'enabled-own' => 'It is not possible to deactivate your own user',
-        'readonly-own' => 'Unable to check read-only option for your own user',
+        'admin-own' => 'شما نمیتوانید خودتان را از حالت Admin خارج کنید',
+        'enabled-own' => 'شما نمیتوانید خودتان را غیرفعال کنید',
+        'readonly-own' => 'نمیتوانید خودتان را فقط خواندنی کنید',
     ],
 ];

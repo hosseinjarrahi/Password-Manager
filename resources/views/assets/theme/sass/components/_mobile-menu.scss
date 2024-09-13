@@ -42,7 +42,7 @@
                 @apply px-5;
             }
             .menu__title {
-                @apply w-full ml-3 flex items-center;
+                @apply w-full mr-3 flex items-center;
                 .menu__sub-icon {
                     @apply transition ease-in duration-100 ml-auto;
                     svg {

@@ -1,6 +1,6 @@
 <?php return [
-    'back' => 'Back',
+    'back' => 'بازگشت',
     'code' => 'Google Authenticator Code',
     'login' => 'ورود',
-    'meta-title' => 'Two-Factor Authentication',
+    'meta-title' => 'احراز هویت دو مرحله ای',
 ];

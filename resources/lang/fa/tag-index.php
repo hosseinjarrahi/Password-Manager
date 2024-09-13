@@ -1,9 +1,9 @@
 <?php return [
-    'apps' => 'Apps',
+    'apps' => 'محتوا',
     'color' => 'رنگ',
-    'create' => 'ایجاد',
-    'filter' => 'Filter Tags...',
+    'create' => 'افزودن',
+    'filter' => 'فیلتر بر اساس برچسب ...',
     'id' => 'ID',
-    'meta-title' => 'Tags',
-    'name' => 'Name',
+    'meta-title' => 'برچسب ها',
+    'name' => 'نام',
 ];

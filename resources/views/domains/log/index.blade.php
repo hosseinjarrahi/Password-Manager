@@ -17,8 +17,8 @@
                 <th class="w-1">{{ __('log-index.id') }}</th>
                 <th>{{ __('log-index.created_at') }}</th>
                 <th>{{ __('log-index.table') }}</th>
-                <th class="text-left">{{ __('log-index.action') }}</th>
-                <th class="text-left">{{ __('log-index.payload') }}</th>
+                <th class="text-right">{{ __('log-index.action') }}</th>
+                <th class="text-right">{{ __('log-index.payload') }}</th>
                 <th>{{ __('log-index.user') }}</th>
                 <th>{{ __('log-index.app') }}</th>
             </tr>

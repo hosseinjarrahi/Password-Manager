@@ -5,29 +5,29 @@
             @apply border-separate;
             td {
                 @apply bg-white dark:bg-dark-3;
-                box-shadow: 20px 3px 20px #0000000b;
+                @apply text-right;
+                border: 1px solid rgba(0, 0, 0, 0.3);
                 &:first-child {
-                    @apply rounded-l-md;
+                    @apply rounded-r-md;
                 }
                 &:last-child {
-                    @apply rounded-r-md;
+                    @apply rounded-l-md;
                 }
                 &.table-report__action {
                     @apply py-0 relative;
                     &:before {
                         content: "";
-                        @apply w-px h-8 bg-gray-200 absolute left-0 inset-y-0 my-auto dark:bg-dark-5;
+                        @apply w-px h-8 bg-gray-200 absolute right-0 inset-y-0 my-auto dark:bg-dark-5;
                     }
                 }
             }
         }
         img {
-            box-shadow: 0px 0px 0px 2px #fff, 1px 1px 5px rgba(0, 0, 0, 0.32);
+            box-shadow:
+                0px 0px 0px 2px #fff,
+                1px 1px 5px rgba(0, 0, 0, 0.32);
         }
-        &.table-report--tabulator
-            .tabulator-header
-            .tabulator-headers
-            .tabulator-col {
+        &.table-report--tabulator .tabulator-header .tabulator-headers .tabulator-col {
             &:nth-child(3),
             &:nth-child(4),
             &:nth-child(5),
@@ -44,7 +44,8 @@
     .dark {
         .table-report {
             img {
-                box-shadow: 0px 0px 0px 2px #3f4865,
+                box-shadow:
+                    0px 0px 0px 2px #3f4865,
                     1px 1px 5px rgba(0, 0, 0, 0.32);
             }
         }
